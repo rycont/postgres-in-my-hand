@@ -1,5 +1,5 @@
 import { Terminal as xterm } from 'xterm'
-import { V86Starter } from '../lib/libv86.js'
+import { V86Starter } from './libv86.js'
 
 function executeWithEmulator(emulator, _command) {
     return new Promise((ok) => {
