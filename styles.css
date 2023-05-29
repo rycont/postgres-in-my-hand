@@ -1,11 +1,12 @@
-@import url('//cdn.jsdelivr.net/gh/neodgm/neodgm-webfont@latest/neodgm_code/style.css');
-
-
-html, body, pre, textarea, button { font-family: "NeoDunggeunmo Code", sans-serif; }
-
-html {
-    font-size: 18px;
+@font-face {
+    font-family: 'D2Coding';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
+
+
+html, body, pre, textarea, button { font-family: "D2Coding", sans-serif; }
 
 #terminal {
     display: none;
